@@ -1,0 +1,27 @@
+name: drq
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - pytorch
+  - cudatoolkit=9.2
+  - absl-py
+  - pyparsing
+  - jupyterlab
+  - pip:
+    - termcolor
+    - git+git://github.com/deepmind/dm_control.git
+    - git+git://github.com/denisyarats/dmc2gym.git
+    - tb-nightly
+    - imageio
+    - imageio-ffmpeg
+    - hydra-core
+    - pandas
+    - ipdb
+    - tqdm
+    - torchvision
+    - yapf
+    - mujoco_py
+    - sklearn
+    - matplotlib
+    - kornia
