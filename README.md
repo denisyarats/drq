@@ -79,3 +79,7 @@ R - average episode return computed over `num_eval_episodes` (usually 10)
 ## The Dreamer Benchmark
 **DrQ** demonstrates the state-of-the-art performance on an extended set of challenging image-based tasks from the DeepMind Control Suite (Tassa et al., 2018), following the benchmark protocol from Dreamer (Hafner et al., 2019). We compare against Dreamer (Hafner et al., 2019) and an upper-bound performance SAC States (Haarnoja et al., 2018).
 ![The Dreamer Benchmark](graphs/dreamer_bench.png)
+
+
+## Acknowledgements 
+We used [kornia](https://github.com/kornia/kornia) for data augmentation.
