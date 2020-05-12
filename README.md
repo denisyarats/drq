@@ -74,11 +74,11 @@ R - average episode return computed over `num_eval_episodes` (usually 10)
 
 ## The PlaNet Benchmark
 **DrQ** demonstrates the state-of-the-art performance on a set of challenging image-based tasks from the DeepMind Control Suite (Tassa et al., 2018). We compare against PlaNet (Hafner et al., 2018), SAC-AE (Yarats et al., 2019), SLAC (Lee et al., 2019), CURL (Srinivas et al., 2020), and an upper-bound performance SAC States (Haarnoja et al., 2018). This follows the benchmark protocol established in PlaNet (Hafner et al., 2018).
-![The PlaNet Benchmark](graphs/planet_bench.png)
+![The PlaNet Benchmark](pngs/planet_bench.png)
 
 ## The Dreamer Benchmark
 **DrQ** demonstrates the state-of-the-art performance on an extended set of challenging image-based tasks from the DeepMind Control Suite (Tassa et al., 2018), following the benchmark protocol from Dreamer (Hafner et al., 2019). We compare against Dreamer (Hafner et al., 2019) and an upper-bound performance SAC States (Haarnoja et al., 2018).
-![The Dreamer Benchmark](graphs/dreamer_bench.png)
+![The Dreamer Benchmark](pngs/dreamer_bench.png)
 
 
 ## Acknowledgements 
