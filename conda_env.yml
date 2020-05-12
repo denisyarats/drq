@@ -8,6 +8,7 @@ dependencies:
   - absl-py
   - pyparsing
   - jupyterlab
+  - scikit-image
   - pip:
     - termcolor
     - git+git://github.com/deepmind/dm_control.git
