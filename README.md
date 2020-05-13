@@ -34,10 +34,17 @@ source activate drq
 ```
 
 ## Instructions
-To train the DrQ agent on the `Cheetah Run` task run
+To train the DrQ agent on the `Cartpole Swingup` task run
 ```
-python train.py env=cheetah_run
+python train.py env=cartpole_swingup
 ```
+**you can get the state-of-the-art performance in under 3 hours.**
+
+To reproduce the results from the paper run
+```
+python train.py env=cartpole_swingup batch_size=512
+```
+
 This will produce the `runs` folder, where all the outputs are going to be stored including train/eval logs, tensorboard blobs, and evaluation episode videos. To launch tensorboard run
 ```
 tensorboard --logdir runs

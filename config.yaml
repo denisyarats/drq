@@ -1,5 +1,5 @@
 # env
-env: cheetah_run
+env: cartpole_swingup
 # IMPORTANT: if action_repeat is used the effective number of env steps needs to be
 # multiplied by action_repeat in the result graphs.
 # This is a common practice for a fair comparison.
@@ -26,7 +26,8 @@ image_pad: 4
 frame_stack: 3
 # global params
 lr: 1e-3
-batch_size: 512
+# IMPORTANT: please use a batch size of 512 to reproduce the results in the paper. Hovewer, with a smaller batch size it still works well.
+batch_size: 128
 
 # agent configuration
 agent:
