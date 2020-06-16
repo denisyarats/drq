@@ -42,7 +42,7 @@ python train.py env=cartpole_swingup
 
 To reproduce the results from the paper run
 ```
-python train.py env=cartpole_swingup batch_size=512
+python train.py env=cartpole_swingup batch_size=512 action_repeat=8
 ```
 
 This will produce the `runs` folder, where all the outputs are going to be stored including train/eval logs, tensorboard blobs, and evaluation episode videos. To launch tensorboard run
