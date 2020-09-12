@@ -48,7 +48,7 @@ agent:
     critic_tau: 0.01
     critic_target_update_frequency: 2
     batch_size: ${batch_size}
-    
+
 critic:
   class: drq.Critic
   params:
@@ -56,7 +56,7 @@ critic:
     action_shape: ${agent.params.action_shape}
     hidden_dim: 1024
     hidden_depth: 2
-    
+
 actor:
   class: drq.Actor
   params:
@@ -65,7 +65,7 @@ actor:
     hidden_depth: 2
     hidden_dim: 1024
     log_std_bounds: [-10, 2]
-    
+
 encoder:
   class: drq.Encoder
   params:
