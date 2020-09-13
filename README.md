@@ -30,7 +30,7 @@ conda env create -f conda_env.yml
 ```
 After the instalation ends you can activate your environment with
 ```
-source activate drq
+conda activate drq
 ```
 
 ## Instructions
@@ -57,7 +57,7 @@ The console output is also available in a form:
 a training entry decodes as
 ```
 train - training episode
-E - total number of episodes 
+E - total number of episodes
 S - total number of environment steps
 R - episode return
 D - duration in seconds
@@ -72,7 +72,7 @@ while an evaluation entry
 ```
 | eval  | E: 20 | S: 20000 | R: 10.9356
 ```
-contains 
+contains
 ```
 E - evaluation was performed after E episodes
 S - evaluation was performed after S environment steps
@@ -88,5 +88,5 @@ R - average episode return computed over `num_eval_episodes` (usually 10)
 ![The Dreamer Benchmark](pngs/dreamer_bench.png)
 
 
-## Acknowledgements 
+## Acknowledgements
 We used [kornia](https://github.com/kornia/kornia) for data augmentation.

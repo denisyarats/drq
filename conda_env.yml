@@ -3,8 +3,9 @@ channels:
   - defaults
 dependencies:
   - python=3.7
+  - pip
   - pytorch
-  - cudatoolkit=9.2
+  - cudatoolkit
   - absl-py
   - pyparsing
   - jupyterlab
@@ -16,7 +17,7 @@ dependencies:
     - tb-nightly
     - imageio
     - imageio-ffmpeg
-    - hydra-core
+    - git+git://github.com/facebookresearch/hydra@0.11_branch
     - pandas
     - ipdb
     - tqdm
