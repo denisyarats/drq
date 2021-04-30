@@ -10,6 +10,8 @@ This is a PyTorch implementation of **DrQ** from
 
 [[Paper]](https://arxiv.org/abs/2004.13649) [[Webpage]](https://sites.google.com/view/data-regularized-q)
 
+Implementations in other frameworks: [jax/flax](https://github.com/ikostrikov/jax-rl).
+
 ## Citation
 If you use this repo in your research, please consider citing the paper as follows
 ```
