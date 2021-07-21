@@ -1,10 +1,5 @@
 # DrQ: Data regularized Q
 
-***Update***: We released an improved version — **DrQ-v2**, which achieves much better sample efficiency and takes **3.5x** less wall-clock training time.
-DrQ-v2 also solves complex humanoid locomotion tasks directly from pixels, which is the first successful demonstration by a model-free method.
-Refer to the new [code](https://github.com/facebookresearch/drqv2) and [paper](https://arxiv.org/abs/2107.09645).
----
-
 This is a PyTorch implementation of **DrQ** from
 
 **Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels** by
@@ -14,6 +9,8 @@ This is a PyTorch implementation of **DrQ** from
 *Equal contribution. Author ordering determined by coin flip.
 
 [[Paper]](https://arxiv.org/abs/2004.13649) [[Webpage]](https://sites.google.com/view/data-regularized-q)
+
+**Update**: we released a newer version **DrQ-v2**, please check it out [here](https://github.com/facebookresearch/drqv2).
 
 Implementations in other frameworks: [jax/flax](https://github.com/ikostrikov/jax-rl).
 
