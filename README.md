@@ -17,13 +17,12 @@ Implementations in other frameworks: [jax/flax](https://github.com/ikostrikov/ja
 ## Citation
 If you use this repo in your research, please consider citing the paper as follows
 ```
-@article{kostrikov2020image,
-    title={Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels},
-    author={Ilya Kostrikov and Denis Yarats and Rob Fergus},
-    year={2020},
-    eprint={2004.13649},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
+@inproceedings{yarats2021image,
+  title={Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels},
+  author={Denis Yarats and Ilya Kostrikov and Rob Fergus},
+  booktitle={International Conference on Learning Representations},
+  year={2021},
+  url={https://openreview.net/forum?id=GY6-6sTvGaf}
 }
 ```
 
